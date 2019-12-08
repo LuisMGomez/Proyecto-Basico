@@ -19,6 +19,9 @@ public class BasicosLuisManuelGomez {
 		//Ejemplo de tipo String
 		cadena();
 		
+		// Ejemplo tipo logicos
+		logicos();
+		
 	}
 	
 	
@@ -57,9 +60,9 @@ public class BasicosLuisManuelGomez {
 		System.out.println("Valor long     "+ v_long);
 		System.out.println("Valor float    "+ v_float);
 		System.out.println("Valor double   "+ v_doble );
+
 	}
-
-
+	
 	
 	
 	/**
@@ -90,4 +93,27 @@ public class BasicosLuisManuelGomez {
 		System.out.println("Valor union cadena 1 y cadena 2...................: " + cadena_3);
 		System.out.println("Valor longitud cadena 3...........................: " + cadena_3.length());
 }
+
+	/**
+	 * Ejemplos de tipo Logicos
+	 */
+	public static void logicos() {
+
+		// Declaracion de tipo Boolean
+
+		Boolean on;
+		Boolean off;
+
+		// Asignacion de valores de tipos Boolean
+
+		on = true;
+		off = false;
+
+		// Mostrar en pantalla el contendido de tipos Boolean
+
+		System.out.println("\nEjemplos de tipo Boolean:");
+		System.out.println("-----------------------------------");
+		System.out.println("Valor on.....: " + on);
+		System.out.println("Valor off....: " + off);
+	}
 }
